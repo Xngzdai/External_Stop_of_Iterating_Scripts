@@ -3,7 +3,7 @@
 # Objective: 
 A user can, by his or her decision, stop and jump out iterations in a running program and more importantly, can execute the following codes. 
 
-Inspiration:
+# Inspiration:
 When using Computer Vision ToolBox, video frames go through a loop that iterates as many times as the total number of frames in the video file. With some add-on algorithms and processing on the frame, such a loop can be slow and it is possible to take an unexpectedly long time to iterate throughout the loop. Therefore, sometimes there is a demand that "the video that has been processed is so-far-so-good and I don't really need to complete the iteration necessarily."
 Though usually it is acceptable, the method of hitting the 'Stop' button to terminate the script fails to execute the following codes after the loop. In our case, where a video output is expected, the output video file is saved by closing an video file writer object at the end of the program. Failure to execute object closing will results in the corruption of the file without exceptions.
 Therefore, the script in this page provides a solution, or generally speaking a clue, to this problem. Since the function sounds simple, we don't want to burden programmers to install any packages or functions only for one or two functions. And the application is extended to all kinds of iterating program, not only video related.
