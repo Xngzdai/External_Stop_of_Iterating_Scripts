@@ -19,10 +19,15 @@ Walter Roberson recommended PsychToolbox. Though this is a powerful toolbox, we 
 
 # Q&A:
 Q: Why not parallel threads? 
+
 A: Possible, but might be an overkill. Sometimes your program doesn't really need multithreads and it will increase your workload and possibility of things going wrong :-)
+
 Q: Why not using multiple scripts or functions? Instead, you read a txt file.
+
 A: When the program starts to run, the code are read into the memory and any changes after that will be ignored during the running time. However, a text file is available to be edited at any time.
+
 Q: Can I make contribution if I have a creative solution, or if I find that your code accidentally replicates some past work?
+
 A: Yes! Feel free to contribute new solutions to the Community. And learning from criticisms is one of my most favorable way to improve myself so don't be too reserved if you find anything wrong with my solution.
 
 # Related Questions:
